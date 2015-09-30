@@ -7,5 +7,7 @@
     
     
     <string name="codeViewActivity">Chapter02/BasicUI/CodeView</string>
+    <string name="customViewActivity">Chapter02/BasicUI/CustomView</string>
+    <string name="mixViewActivity">Chapter02/BasicUI/MixView</string>
 
 </resources>
