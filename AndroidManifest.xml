@@ -13,7 +13,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-       <activity
+        <activity
             android:name="com.diary.crazy.CrazyDemos"
             android:label="@string/app_name" >
             <intent-filter>
@@ -32,7 +32,7 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-               <activity
+        <activity
             android:name=".chapter02.CustomViewActivity"
             android:label="@string/customViewActivity" >
             <intent-filter>
@@ -41,7 +41,7 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-                     <activity
+        <activity
             android:name=".chapter02.MixViewActivity"
             android:label="@string/mixViewActivity" >
             <intent-filter>
@@ -50,7 +50,7 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-                    <activity
+        <activity
             android:name=".chapter02.AbsoluteLayoutActivity"
             android:label="@string/absoluteLayoutActivity" >
             <intent-filter>
@@ -59,9 +59,110 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-                            <activity
+        <activity
             android:name=".chapter02.FrameLayoutActivity"
             android:label="@string/frameLayoutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chapter02.LinearLayoutActivity"
+            android:label="@string/linearLayoutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chapter02.RelativeLayoutActivity"
+            android:label="@string/relatvieLayoutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chapter02.MarginPaddingLayoutActivity"
+            android:label="@string/marginPaddingLayoutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chapter02.TableLayoutActivity"
+            android:label="@string/tableLayoutActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chapter02.NinepatchActivity"
+            android:label="@string/ninepatchActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chapter02.DynamicButtonActivity"
+            android:label="@string/dynamicButtonActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".chapter02.CheckButtonActivity"
+            android:label="@string/checkButtonActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+        
+          <!-- chapter07 begin here -->
+                 <activity
+            android:name=".chapter07.BitmapActivity"
+            android:label="@string/bitmapActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                     <activity
+            android:name=".chapter07.CanvasActivity"
+            android:label="@string/canvasActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                                    <activity
+            android:name=".chapter07.HandDrawActivity"
+            android:label="@string/handDrawActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name=".chapter07.PathTextActivity"
+            android:label="@string/pathTextActivity" >
             <intent-filter>
                 <action android:name="android.intent.diary.Action" />
 

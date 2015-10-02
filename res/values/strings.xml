@@ -4,12 +4,51 @@
     <string name="app_name">crazyAndroid</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    
-    
     <string name="codeViewActivity">Chapter02/BasicUI/CodeView</string>
     <string name="customViewActivity">Chapter02/BasicUI/CustomView</string>
     <string name="mixViewActivity">Chapter02/BasicUI/MixView</string>
+    <string name="ninepatchActivity">Chapter02/BasicUI/Ninepatch</string>
+    <string name="dynamicButtonActivity">Chapter02/BasicUI/DynamicButton</string>
+    <string name="checkButtonActivity">Chapter02/BasicUI/CheckButton</string>
     <string name="absoluteLayoutActivity">Chapter02/Layout/AbsoluteLayout</string>
     <string name="frameLayoutActivity">Chapter02/Layout/FrameLayout</string>
+    <string name="linearLayoutActivity">Chapter02/Layout/LinearLayout</string>
+    <string name="relatvieLayoutActivity">Chapter02/Layout/RelativeLayout</string>
+    <string name="marginPaddingLayoutActivity">Chapter02/Layout/MarginPadding</string>
+    <string name="tableLayoutActivity">Chapter02/Layout/TableLayout</string>
+    <string name="bn1">测试按钮1</string>
+    <string name="bn2">测试按钮2</string>
+    <string name="bn3">测试按钮3</string>
+    <string name="bn4">测试按钮4</string>
+    <string name="bn5">测试按钮5</string>
+    <string name="bn6">测试按钮6</string>
+
+    <!-- chapter07 begin here -->
+    <string name="next">下一张</string>
+    <string name="bitmapActivity">Chapter07/Graphic/BitmapTest</string>
+    <string name="canvasActivity">Chapter07/Graphic/CanvasTest</string>
+    <string name="handDrawActivity">Chapter07/Graphic/HandDraw</string>
+    <string name="pathTextActivity">Chapter07/Graphic/PathText</string>
+    
+    
+    <string name="circle">圆形</string>
+    <string name="square">正方形</string>
+    <string name="rect">长方形</string>
+    <string name="round_rect">圆角矩形</string>
+    <string name="oval">椭圆形</string>
+    <string name="triangle">三角形</string>
+    <string name="pentagon">五角形</string>
+    
+    <string name="width_1">1像素</string>
+	<string name="width_3">3像素</string>
+	<string name="width_5">5像素</string>
+	<string name="color_red">红色</string>
+	<string name="color_green">绿色</string>
+	<string name="color_blue">蓝色</string>
+	<string name="color">画笔颜色</string>
+	<string name="width">画笔宽度</string>
+	<string name="blur">模糊效果</string>
+	<string name="emboss">浮雕效果</string>	
+	
 
 </resources>
