@@ -29,7 +29,10 @@
     <string name="canvasActivity">Chapter07/Graphic/CanvasTest</string>
     <string name="handDrawActivity">Chapter07/Graphic/HandDraw</string>
     <string name="pathTextActivity">Chapter07/Graphic/PathText</string>
-    
+    <string name="pathActivity">Chapter07/Graphic/PathDemonstration</string>
+    <string name="pinBallActivity">Chapter07/Graphic/PinBall Game</string>
+    <string name="blastActivity">Chapter07/Graphic/Blast demo</string>
+
     
     <string name="circle">圆形</string>
     <string name="square">正方形</string>

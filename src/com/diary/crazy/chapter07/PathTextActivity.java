@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Path;
+import android.graphics.RectF;
 import android.os.Bundle;
 import android.view.View;
 
@@ -35,6 +36,11 @@ public class PathTextActivity extends Activity {
 				paths[0].lineTo(i*30, (float)Math.random()*30);
 			}
 			
+			paths[1] = new Path();
+			RectF rectF = new RectF(0 , 0 , 200 , 120);
+			paths[1].addOval(rectF, Path.Direction.CCW);
+			paths[2] = new Path();
+			paths[2].addArc(rectF , 60, 180); 
 			
 			//初始化画笔
 			paint = new Paint();
@@ -57,6 +63,31 @@ public class PathTextActivity extends Activity {
 			//绘制路径
 			paint.setStyle(Paint.Style.STROKE);
 			canvas.drawPath(paths[0], paint);
+			
+			//沿着路径绘制一段文本。
+			paint.setStyle(Paint.Style.FILL);
+			canvas.drawTextOnPath(DRAW_STRING, paths[0], -80
+					, 20, paint);
+			
+			//画布下移120
+			canvas.translate(0, 60);
+			//绘制路径
+			paint.setStyle(Paint.Style.STROKE);
+			canvas.drawPath(paths[1], paint);
+			//沿着路径绘制一段文本。
+			paint.setStyle(Paint.Style.FILL);
+			canvas.drawTextOnPath(DRAW_STRING, paths[1]
+				, -20 , 20 , paint);
+			
+			//画布下移120
+			canvas.translate(0, 120);
+			//绘制路径
+			paint.setStyle(Paint.Style.STROKE);
+			canvas.drawPath(paths[2], paint);
+			//沿着路径绘制一段文本。
+			paint.setStyle(Paint.Style.FILL);
+			canvas.drawTextOnPath(DRAW_STRING, paths[2]
+				, -10 , 20 , paint);	
 		}
 		
 		
