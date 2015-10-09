@@ -22,10 +22,9 @@
     <string name="bn4">测试按钮4</string>
     <string name="bn5">测试按钮5</string>
     <string name="bn6">测试按钮6</string>
-    
+
     <!-- chapter03 begin here -->
-       <string name="activityListener">Chapter03/Listener/ActivityListener</string>
-    
+    <string name="activityListener">Chapter03/Listener/ActivityListener</string>
 
     <!-- chapter07 begin here -->
     <string name="next">下一张</string>
@@ -38,17 +37,16 @@
     <string name="blastActivity">Chapter07/Graphic/Blast demo</string>
     <string name="surfaceViewTestAcivity">Chapter07/Graphic/Sun surfaceView</string>
     <string name="showWaveActivity">Chapter07/Graphic/show Wave</string>
-    
-    
-    
-    <!-- lecture begin here -->
-	<string name="selfDefinedUIActivity">Lecture/chapter05/selfDefinedUI Test</string>
-	<string name="handDrawWithView">Lecture/chapter05/handDraw Test</string>
-	<string name="drawCustomActivity">Lecture/chapter05/drawCustom Test</string>
-	<string name="surfaceViewActivity">Lecture/chapter05/surfaceView Test</string>
-	<string name="sinSurfaceActivity">Lecture/chapter05/Sin curve Test</string>
 
-    
+    <!-- lecture begin here -->
+    <string name="selfDefinedUIActivity">Lecture/chapter05/selfDefinedUI Test</string>
+    <string name="handDrawWithView">Lecture/chapter05/handDraw Test</string>
+    <string name="drawCustomActivity">Lecture/chapter05/drawCustom Test</string>
+    <string name="surfaceViewActivity">Lecture/chapter05/surfaceView Test</string>
+    <string name="sinSurfaceActivity">Lecture/chapter05/Sin curve Test</string>
+
+    <!-- game begin here -->
+    <string name="snakeActivity">Game/Snake</string>
     <string name="circle">圆形</string>
     <string name="square">正方形</string>
     <string name="rect">长方形</string>
@@ -56,17 +54,15 @@
     <string name="oval">椭圆形</string>
     <string name="triangle">三角形</string>
     <string name="pentagon">五角形</string>
-    
     <string name="width_1">1像素</string>
-	<string name="width_3">3像素</string>
-	<string name="width_5">5像素</string>
-	<string name="color_red">红色</string>
-	<string name="color_green">绿色</string>
-	<string name="color_blue">蓝色</string>
-	<string name="color">画笔颜色</string>
-	<string name="width">画笔宽度</string>
-	<string name="blur">模糊效果</string>
-	<string name="emboss">浮雕效果</string>	
-	
+    <string name="width_3">3像素</string>
+    <string name="width_5">5像素</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color">画笔颜色</string>
+    <string name="width">画笔宽度</string>
+    <string name="blur">模糊效果</string>
+    <string name="emboss">浮雕效果</string>
 
 </resources>

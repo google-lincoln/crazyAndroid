@@ -271,7 +271,16 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>                                 
-                                      
+                                                         <activity
+            android:name=".game.SnakeActivity"
+            android:label="@string/snakeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>                
+                                                
           
     </application>
 
