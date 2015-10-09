@@ -215,7 +215,16 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
-                                   
+                                         <activity
+            android:name=".chapter07.ShowWaveActivity"
+            android:label="@string/showWaveActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                              
         <!-- Lecture begin here -->
                                          <activity
             android:name=".lecture.SelfDefinedUIActivity"
