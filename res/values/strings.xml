@@ -22,6 +22,10 @@
     <string name="bn4">测试按钮4</string>
     <string name="bn5">测试按钮5</string>
     <string name="bn6">测试按钮6</string>
+    
+    <!-- chapter03 begin here -->
+       <string name="activityListener">Chapter03/Listener/ActivityListener</string>
+    
 
     <!-- chapter07 begin here -->
     <string name="next">下一张</string>
@@ -32,6 +36,16 @@
     <string name="pathActivity">Chapter07/Graphic/PathDemonstration</string>
     <string name="pinBallActivity">Chapter07/Graphic/PinBall Game</string>
     <string name="blastActivity">Chapter07/Graphic/Blast demo</string>
+    <string name="surfaceViewTestAcivity">Chapter07/Graphic/Sun surfaceView</string>
+    
+    
+    
+    <!-- lecture begin here -->
+	<string name="selfDefinedUIActivity">Lecture/chapter05/selfDefinedUI Test</string>
+	<string name="handDrawWithView">Lecture/chapter05/handDraw Test</string>
+	<string name="drawCustomActivity">Lecture/chapter05/drawCustom Test</string>
+	<string name="surfaceViewActivity">Lecture/chapter05/surfaceView Test</string>
+	<string name="sinSurfaceActivity">Lecture/chapter05/Sin curve Test</string>
 
     
     <string name="circle">圆形</string>

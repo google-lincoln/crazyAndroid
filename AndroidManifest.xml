@@ -131,6 +131,16 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+        <!-- chapter03 begin here -->
+         <activity
+            android:name=".chapter03.ActivityListener"
+            android:label="@string/activityListener" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
         
           <!-- chapter07 begin here -->
                  <activity
@@ -196,6 +206,63 @@
                 <category android:name="android.intent.category.SAMPLE_CODE" />
             </intent-filter>
         </activity>
+                                     <activity
+            android:name=".chapter07.SurfaceViewTestAcivity"
+            android:label="@string/surfaceViewTestAcivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                                   
+        <!-- Lecture begin here -->
+                                         <activity
+            android:name=".lecture.SelfDefinedUIActivity"
+            android:label="@string/selfDefinedUIActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                                      <activity
+            android:name=".lecture.HandDrawActivity"
+            android:label="@string/handDrawWithView" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+                                          <activity
+            android:name=".lecture.DrawCustomActivity"
+            android:label="@string/drawCustomActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>                
+                                                 <activity
+            android:name=".lecture.SurfaceViewActivity"
+            android:label="@string/surfaceViewActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>                        
+                                                    <activity
+            android:name=".lecture.SinSurfaceActivity"
+            android:label="@string/sinSurfaceActivity" >
+            <intent-filter>
+                <action android:name="android.intent.diary.Action" />
+
+                <category android:name="android.intent.category.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>                                 
+                                      
           
     </application>
 
